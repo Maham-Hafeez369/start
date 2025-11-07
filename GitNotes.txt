@@ -1,0 +1,13 @@
+ls ---->list of files
+ls -a---->list of all files(hidden files also) but for power shell it is (ls -Force)
+clear command
+git --version
+cd foldername----->change directory(folder)
+git clone link.git------>for cloning repository from github to local
+git status------->showing the condition of project
+there are 4 types of status that can be shown by status command
+1-UNTRCKED
+2-MODIFIED
+3-STAGED----->ready to be committed(means added but not commited)
+4-UNMODIFIED------>unchanged (after commiting or before changing)
+git add filename----->add changed or new files to the git staging area(before commiting and after changing stage)
