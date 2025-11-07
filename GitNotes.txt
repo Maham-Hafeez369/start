@@ -11,3 +11,5 @@ there are 4 types of status that can be shown by status command
 3-STAGED----->ready to be committed(means added but not commited)
 4-UNMODIFIED------>unchanged (after commiting or before changing)
 git add filename----->add changed or new files to the git staging area(before commiting and after changing stage)
+git add .------>add all changes
+git commit-m "some message"---------> keep record of changes unlike add
