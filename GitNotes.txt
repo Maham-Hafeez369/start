@@ -13,3 +13,6 @@ there are 4 types of status that can be shown by status command
 git add filename----->add changed or new files to the git staging area(before commiting and after changing stage)
 git add .------>add all changes
 git commit-m "some message"---------> keep record of changes unlike add
+cd ..---------->come out from directory
+mkdir directoryname------->make new directory
+git init------->initialize local repository to github
