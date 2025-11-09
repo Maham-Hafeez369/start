@@ -20,6 +20,40 @@ mkdir directoryname------->make new directory
 git init------->initialize local repository to github
 git remote add origin <link where to add>
 git remote -v   ------->check remote
+
+
+Moving to branches:
 git branch -------->check branch
 git branch -M newname -------------> change branch name
+git checkout <branchname> ------------>go to other branch
+git checkout -b <branchname> ------------> create new branch
+git branch -d <branchname> ---------->delete branch
+
+
+Merging branches:
+git diff branchname----------> give differences between branch we are in and the given branch
+git merge branchname-----------> merge two branches
+creating pull request----------->on github interface
+git pull origin main ------------>pull changes from github to local repository (like merging branches)
+
+
+Merge conflicts:
+these conflicts arise when some changes are made at the same positions in different branches ,then git can't determine which change should be accepted
+can be done merge command disscussed above
+
+Undoing changes:
+1- after only adding:
+git reset <filename>---------> reset that particualr file
+git reset -------------->  reset all the files after adding
+2- after commiting:
+git reset HEAD~1 ------------> undo the latest commit
+git reset <hash>------------->  hash is a long number of the commit that we can get using get log command and we will go the that commit whose hash we are using
+git log ---------> checking commits
+q-----------> quiting
+git reset --hard <hash>  ----------> undoing in  vs code as well
+
+
+
+Fork: 
+--------> to create a copy of a project of your own or of others projets to create pull request for open source contribution
 
