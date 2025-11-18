@@ -35,7 +35,7 @@ git diff branchname----------> give differences between branch we are in and the
 git merge branchname-----------> merge two branches
 creating pull request----------->on github interface
 git pull origin main ------------>pull changes from github to local repository (like merging branches)
-
+pwd------------------>gives the path of folder in which we are
 
 Merge conflicts:
 these conflicts arise when some changes are made at the same positions in different branches ,then git can't determine which change should be accepted
